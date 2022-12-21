@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+:root {
+    --my-bg-color: coral;
+    --my-second-bg-color: #263066;
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+main .container {
+    
+    background-color: var(--my-bg-color);
+}
+
+
+#form-section .card {
+    background-color: var(--my-second-bg-color);
+}
+
+#ticket .card {
+    background-color: var(--my-second-bg-color);
+}
+
